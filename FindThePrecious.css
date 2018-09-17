@@ -1,0 +1,99 @@
+﻿.nav-item:hover {
+  background-color: grey;
+}
+
+hr {
+  background-color: black;
+}
+
+.card {
+  position: absolute;
+}
+
+.reward1 {
+  position: relative;
+  left: 100px; bottom: 600px;
+  background-color: grey;
+  border-radius: 10px;
+  width: 400px;
+  font-family: Arial;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+  text-align: center;
+  opacity: 0.8;
+   
+}
+
+.reward2 {
+  position: relative;
+  left: 10px; bottom: 400px;
+  font-family: Arial;
+  font-weight: bold;
+  font-size: 30px;
+  color: black;
+  text-align: center;
+  opacity: 0.8;
+}
+
+.reward3 {
+  position: relative;
+  left: 100px; bottom: 600px;
+  background-color: grey;
+  border-radius: 10px;
+  width: 400px;
+  font-weight: bold;
+  font-family: Arial;
+  font-size: 30px;
+  color: white;
+  text-align: center;
+  opacity: 0.8;
+}
+
+.card-img-top {
+  opacity: 0.7;
+}
+
+.card-img-top:hover {
+  opacity: 1;
+}
+
+.card:hover .reward1 {
+  opacity: 0;
+}
+
+.card:hover .reward2 {
+  opacity: 0;
+}
+
+.card:hover .reward3 {
+  opacity: 0;
+}
+
+.table {
+  border-style : solid;
+  border-solor : #b3b3b3;
+}
+
+.ring {
+  border-style: solid;
+  border-color: #b3b3b3;
+}
+
+.citation {
+  text-align: right;
+}
+
+.floatr {
+  float: right;
+}
+
+.floatl {
+  float: left;
+}
+
+.bouton {
+  position: sticky;
+  left: 380px;
+}
+

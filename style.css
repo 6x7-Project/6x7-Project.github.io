@@ -8,25 +8,25 @@
   src: url(https://fonts.googleapis.com/css?family=VT323);
 }
 
+
 /* Corps de la page */
 body {
   background-image: url("img/fond.png");
   background-size: 100%;
   background-repeat: repeat;
-  padding: 0px;
+  padding:0px;
 }
 
 /* Titre page acceuil + profil */
 h2 {
   font-family: "Press Start 2P";
-  font-size: 2vw;
-  text-shadow: -0.1em 0 red, 0.1em 0 yellow;
+  font-size:3vw;
+  text-shadow: 3px 3px 0 black;
   text-align: center;
-  color: black;
-  display: block;
+  color: white;
+  display:block;
 }
 
-/*PAGE ACCUEIL */
 /* Sous-itre page acceuil */
 h3 {
   font-family: "Press Start 2P";
@@ -34,25 +34,17 @@ h3 {
   text-align: center;
   color: white;
   margin: 5%;
-  text-shadow: 4px 4px 0 #000;
+  text-shadow: 2px 2px 0 #000;
 }
 
 /* Les liens en général du site */
-a {
-  text-decoration: none;
-  border: none;
-}
+a { text-decoration: none;  border:none; }
 
-.imgDivider {
-  width: 50%;
-  display: block;
-  border-radius: 5px;
-}
 
 /* Style de la section */
 .accueil {
   margin: 5% auto;
-  width: 90%;
+  width:90%;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -60,55 +52,53 @@ a {
 
 /* Le container */
 .row {
-  width: 100%;
-  margin: 0px;
+  width:100%;
+  margin:0px;
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 10px;
+  padding:10px;
 }
 
 .blocCardPro {
-  width: 80%;
+  width:80%;
 }
 
-/* Le logo sur la Page d'accueil */
-.imgLogo {
-  max-width: 50%;
-  display: block;
-  text-align: center;
-}
-
+/* le titre */
 .blocLogoTitle {
+  margin:5%;
   display: flex;
   justify-content: center;
   align-items: center;
-}
+  }
 
 /* Le bloc qui entour l'image + le nom de chaque dev sur l'index */
 .blocprofil {
   background-color: #000;
-  padding: 5px;
-  margin: 5px auto;
-  border-radius: 10px;
-  width: 28vw;
+  padding:5px;
+  margin:5px auto;
+  border-radius: 5px;
+  width:25vw;
   display: flex;
   justify-content: space-around;
   align-items: center;
 }
 
+
+
 /* Les noms de chaque dev */
-.nomprofil {
+nomprofil {
   color: white;
-  display: block;
+  display:block;
   text-align: center;
   font-family: "Press Start 2P";
   font-size: 2vw;
-  text-shadow: -2px -2px 0 red;
-  margin: 10px auto;
+  text-shadow:-2px -2px 0 red;
+  margin:10px auto;
 }
 
 /* HOVER LISA */
+
 
 .Bg-imglisa {
   background-image: url("img/Lisa1.jpg");
@@ -116,13 +106,13 @@ a {
   background-size: 100%;
   z-index: 99;
   transition: 1s ease-in-out;
-  border-radius: 10px;
-  width: 25vw;
-  height: 25vw;
+  border-radius: 5px;
+  width: 22vw;
+  height: 22vw;
 }
 
 .card:hover .Bg-imglisa {
-  background-image: url("img/Lisa.png");
+  background-image: url("img/Lisa.jpg");
   background-repeat: no-repeat;
   background-size: 100%;
 }
@@ -138,13 +128,13 @@ a {
   left: 0;
   z-index: 99;
   transition: 1s ease-in-out;
-  border-radius: 10px;
-  width: 25vw;
-  height: 25vw;
+  border-radius: 5px;
+  width: 22vw;
+  height: 22vw;
 }
 
 .card:hover .Bg-imgaymeric {
-  background-image: url("img/Aymeric.png");
+  background-image: url("img/Aymeric.jpg");
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -160,14 +150,14 @@ a {
   left: 0;
   z-index: 99;
   transition: 1s ease-in-out;
-  border-radius: 10px;
-  width: 25vw;
-  height: 25vw;
+  border-radius: 5px;
+  width: 22vw;
+  height: 22vw;
 }
 
 .card:hover .Bg-imgceline {
   position: relative;
-  background-image: url("img/Celine.png");
+  background-image: url("img/Celine.jpg");
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -183,14 +173,14 @@ a {
   left: 0;
   z-index: 99;
   transition: 1s ease-in-out;
-  border-radius: 10px;
-  width: 25vw;
-  height: 25vw;
+  border-radius: 5px;
+  width: 22vw;
+  height: 22vw;
 }
 
 .card:hover .Bg-imgpaul {
   position: relative;
-  background-image: url("img/Paul.png");
+  background-image: url("img/Paul.jpg");
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -206,14 +196,14 @@ a {
   left: 0;
   z-index: 99;
   transition: 1s ease-in-out;
-  border-radius: 10px;
-  width: 25vw;
-  height: 25vw;
+  border-radius: 5px;
+  width: 22vw;
+  height: 22vw;
 }
 
 .card:hover .Bg-imgkapucine {
   position: relative;
-  background-image: url("img/Kapucine.png");
+  background-image: url("img/Kapucine.jpg");
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -229,17 +219,18 @@ a {
   left: 0;
   z-index: 99;
   transition: 1s ease-in-out;
-  border-radius: 10px;
-  width: 25vw;
-  height: 25vw;
+  border-radius: 5px;
+  width: 22vw;
+  height: 22vw;
 }
 
 .card:hover .Bg-imgioannis {
   position: relative;
-  background-image: url("img/Ioannis.png");
+  background-image: url("img/Ioannis.jpg");
   background-repeat: no-repeat;
   background-size: cover;
 }
+
 
 /* PAGES PROFILES */
 /* First title : 'Work attractive & creative' & 'Who's this human?'  */
